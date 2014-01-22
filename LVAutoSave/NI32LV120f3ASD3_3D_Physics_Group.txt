@@ -1,3 +1,0 @@
-C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\robotics\Simulator\3D-Physics\Group\3D_Physics_Group.lvclass
-default
-default

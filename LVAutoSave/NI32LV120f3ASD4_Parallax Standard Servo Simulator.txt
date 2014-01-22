@@ -1,3 +1,0 @@
-C:\Program Files\National Instruments\LabVIEW 2012\instr.lib\Parallax Standard Servo\HAIOL\Simulator\Parallax Standard Servo Simulator.lvclass
-default
-default

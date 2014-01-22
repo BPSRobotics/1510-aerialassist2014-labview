@@ -1,3 +1,0 @@
-C:\Program Files\National Instruments\LabVIEW 2012\vi.lib\robotics\Simulator\Robot Classes\Base\ODESimulator_Base_Robot.lvclass
-default
-default
