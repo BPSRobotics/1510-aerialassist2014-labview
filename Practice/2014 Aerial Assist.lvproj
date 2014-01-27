@@ -127,10 +127,12 @@ DirectoryIndex index.htm
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="1510-Created Modules" Type="Folder">
+			<Item Name="Input Devices" Type="Folder">
+				<Item Name="Controller Drive.vi" Type="VI" URL="../Controller Drive.vi"/>
+				<Item Name="Joystick Drive.vi" Type="VI" URL="../Joystick Drive.vi"/>
+				<Item Name="Input Control.vi" Type="VI" URL="../Input Control.vi"/>
+			</Item>
 			<Item Name="Mecanum Drive.vi" Type="VI" URL="../Mecanum Drive.vi"/>
-			<Item Name="Joystick Drive.vi" Type="VI" URL="../Joystick Drive.vi"/>
-			<Item Name="Input Control.vi" Type="VI" URL="../Input Control.vi"/>
-			<Item Name="Controller Drive.vi" Type="VI" URL="../Controller Drive.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -510,7 +512,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_RobotDriveRotateVector.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRotateVector.vi"/>
 				<Item Name="SD Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String.vi"/>
 				<Item Name="SD Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean Array.vi"/>
-				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

@@ -1,0 +1,13 @@
+<<<<<<< .mine[My Computer]
+My Computer = "192.168.1.127"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "10.15.10.2"
+
+=======[My Computer]
+My Computer = "192.168.1.8"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "10.15.10.2"
+
+>>>>>>> .theirs
