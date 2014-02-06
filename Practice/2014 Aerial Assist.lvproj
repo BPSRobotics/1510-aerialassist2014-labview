@@ -123,18 +123,18 @@ DirectoryIndex index.htm
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-		</Item>
-		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="2014 Target Detection.vi" Type="VI" URL="../2014 Target Detection/2014 Target Detection.vi"/>
-			<Item Name="Gyro.vi" Type="VI" URL="../Gyro.vi"/>
 		</Item>
-		<Item Name="1510-Created Modules" Type="Folder">
+		<Item Name="Sensors" Type="Folder">
+			<Item Name="Camera.vi" Type="VI" URL="../2014 Target Detection/Camera.vi"/>
+			<Item Name="Gyroscope.vi" Type="VI" URL="../Gyroscope.vi"/>
+			<Item Name="Ultrasonic.vi" Type="VI" URL="../Ultrasonic.vi"/>
+		</Item>
+		<Item Name="Modules" Type="Folder">
 			<Item Name="Input Devices" Type="Folder">
 				<Item Name="Controller Drive.vi" Type="VI" URL="../Controller Drive.vi"/>
 				<Item Name="Joystick Drive.vi" Type="VI" URL="../Joystick Drive.vi"/>
 				<Item Name="Input Control.vi" Type="VI" URL="../Input Control.vi"/>
-				<Item Name="Ultrasonic Sensor.vi" Type="VI" URL="../Ultrasonic Sensor.vi"/>
 				<Item Name="Deadzone Manipulator.vi" Type="VI" URL="../Deadzone Manipulator.vi"/>
 				<Item Name="Servo Control Module.vi" Type="VI" URL="../Servo Control Module.vi"/>
 				<Item Name="Axis Threshold.vi" Type="VI" URL="../Axis Threshold.vi"/>
@@ -607,6 +607,11 @@ DirectoryIndex index.htm
 			<Item Name="Compute Target Distances.vi" Type="VI" URL="../2014 Target Detection/Compute Target Distances.vi"/>
 			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../2014 Target Detection/Compute DistanceToTarget.vi"/>
 			<Item Name="Normalize Path.vi" Type="VI" URL="../2014 Target Detection/Normalize Path.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
