@@ -44,6 +44,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -128,7 +129,6 @@ DirectoryIndex index.htm
 			<Item Name="Mecanum Drive.vi" Type="VI" URL="../Mecanum Drive.vi"/>
 			<Item Name="Shooter.vi" Type="VI" URL="../Shooter.vi"/>
 			<Item Name="Gyroscope.vi" Type="VI" URL="../Gyroscope.vi"/>
-			<Item Name="Ultrasonic.vi" Type="VI" URL="../Ultrasonic.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Input Devices" Type="Folder">
@@ -140,9 +140,11 @@ DirectoryIndex index.htm
 			<Item Name="2014 Target Detection.vi" Type="VI" URL="../2014 Target Detection/2014 Target Detection.vi"/>
 			<Item Name="Alignment.vi" Type="VI" URL="../Alignment.vi"/>
 			<Item Name="Angle to Tape.vi" Type="VI" URL="../Angle to Tape.vi"/>
+			<Item Name="Ultrasonic Analytic Code.vi" Type="VI" URL="../Ultrasonic Analytic Code.vi"/>
+			<Item Name="Ultrasonic.vi" Type="VI" URL="../Ultrasonic.vi"/>
+			<Item Name="Ultrasonic Tester.vi" Type="VI" URL="../Ultrasonic Tester.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Ultrasonic Analytic Code.vi" Type="VI" URL="../Ultrasonic Analytic Code.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
