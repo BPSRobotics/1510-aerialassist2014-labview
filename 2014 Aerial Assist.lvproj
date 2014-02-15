@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -131,6 +130,7 @@ DirectoryIndex index.htm
 			<Item Name="Gyroscope.vi" Type="VI" URL="../Gyroscope.vi"/>
 			<Item Name="Ultrasonic Analytic Code.vi" Type="VI" URL="../Ultrasonic Analytic Code.vi"/>
 			<Item Name="Ultrasonic.vi" Type="VI" URL="../Ultrasonic.vi"/>
+			<Item Name="Picker Upper.vi" Type="VI" URL="../Picker Upper.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Input Devices" Type="Folder">
