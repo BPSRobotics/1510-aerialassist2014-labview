@@ -31,8 +31,8 @@
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
 		<Property Name="alias.value" Type="Str">10.15.10.2</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,729D;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">729D</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,75C7;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">75C7</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -129,6 +129,8 @@ DirectoryIndex index.htm
 			<Item Name="Mecanum Drive.vi" Type="VI" URL="../Mecanum Drive.vi"/>
 			<Item Name="Shooter.vi" Type="VI" URL="../Shooter.vi"/>
 			<Item Name="Gyroscope.vi" Type="VI" URL="../Gyroscope.vi"/>
+			<Item Name="Ultrasonic Analytic Code.vi" Type="VI" URL="../Ultrasonic Analytic Code.vi"/>
+			<Item Name="Ultrasonic.vi" Type="VI" URL="../Ultrasonic.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Input Devices" Type="Folder">
@@ -140,9 +142,6 @@ DirectoryIndex index.htm
 			<Item Name="2014 Target Detection.vi" Type="VI" URL="../2014 Target Detection/2014 Target Detection.vi"/>
 			<Item Name="Alignment.vi" Type="VI" URL="../Alignment.vi"/>
 			<Item Name="Angle to Tape.vi" Type="VI" URL="../Angle to Tape.vi"/>
-			<Item Name="Ultrasonic Analytic Code.vi" Type="VI" URL="../Ultrasonic Analytic Code.vi"/>
-			<Item Name="Ultrasonic.vi" Type="VI" URL="../Ultrasonic.vi"/>
-			<Item Name="Ultrasonic Tester.vi" Type="VI" URL="../Ultrasonic Tester.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
