@@ -132,13 +132,10 @@ DirectoryIndex index.htm
 			<Item Name="Ultrasonic Analytic Code.vi" Type="VI" URL="../Ultrasonic Analytic Code.vi"/>
 			<Item Name="Ultrasonic.vi" Type="VI" URL="../Ultrasonic.vi"/>
 			<Item Name="Limit Switches.vi" Type="VI" URL="../Limit Switches.vi"/>
-			<Item Name="Safe Fire.vi" Type="VI" URL="../../2014 Robot Dashboard/Safe Fire.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Input Devices" Type="Folder">
 				<Item Name="Deadzone.vi" Type="VI" URL="../Deadzone.vi"/>
-				<Item Name="Controller Drive.vi" Type="VI" URL="../Controller Drive.vi"/>
-				<Item Name="Joystick Drive.vi" Type="VI" URL="../Joystick Drive.vi"/>
 				<Item Name="Input Control.vi" Type="VI" URL="../Input Control.vi"/>
 			</Item>
 			<Item Name="2014 Target Detection.vi" Type="VI" URL="../2014 Target Detection/2014 Target Detection.vi"/>
@@ -656,10 +653,7 @@ DirectoryIndex index.htm
 			<Item Name="Compute Target Distances.vi" Type="VI" URL="../2014 Target Detection/Compute Target Distances.vi"/>
 			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../2014 Target Detection/Compute DistanceToTarget.vi"/>
 			<Item Name="Normalize Path.vi" Type="VI" URL="../2014 Target Detection/Normalize Path.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="Safe Fire.vi" Type="VI" URL="../../2014 Robot Dashboard/Safe Fire.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
