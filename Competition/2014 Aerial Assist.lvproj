@@ -146,6 +146,8 @@ DirectoryIndex index.htm
 			<Item Name="2014 Target Detection.vi" Type="VI" URL="../2014 Target Detection/2014 Target Detection.vi"/>
 			<Item Name="Alignment.vi" Type="VI" URL="../Alignment.vi"/>
 			<Item Name="Angle to Tape.vi" Type="VI" URL="../Angle to Tape.vi"/>
+			<Item Name="Encoders_pickup.vi" Type="VI" URL="../Encoders_pickup.vi"/>
+			<Item Name="Toggle.vi" Type="VI" URL="../../../Documents/LabVIEW Data/2014 Robot Project/Toggle.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
