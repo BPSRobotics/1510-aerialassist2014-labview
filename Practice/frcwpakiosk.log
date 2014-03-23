@@ -1,0 +1,147 @@
+2014-03-18 17:04:17,329 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:422] Starting kiosk...
+2014-03-18 17:04:39,511 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:138] nic selection cancelled
+2014-03-18 17:04:39,512 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:222] Shutting down kiosk
+2014-03-18 17:21:20,484 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:422] Starting kiosk...
+2014-03-18 17:22:00,045 ERROR [SwingWorker-pool-2-thread-1] f.RadioConfigSequence [RadioConfigSequence.java:151] Bridge sequence failed: Bridge login failed; invalid login credentials
+frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:264) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.program(RadioConfigSequence.java:57) [FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.doInBackground(RadioConfigSequence.java:290) [FRCWpaKiosk.jar:12.18.12.913]
+	at javax.swing.SwingWorker$1.call(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.7.0_51]
+	at javax.swing.SwingWorker.run(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_51]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_51]
+Caused by: frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:303) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:256) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 8 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:323) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:309) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:287) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 9 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.RevBUtil.checkLoginSuccessful(RevBUtil.java:38) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:319) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 11 common frames omitted
+2014-03-18 17:22:04,076 INFO [SwingWorker-pool-2-thread-1] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:210] Radio configuration failedfor team 1510; Bridge login failed; invalid login credentials
+2014-03-18 17:22:52,666 ERROR [SwingWorker-pool-2-thread-2] f.RadioConfigSequence [RadioConfigSequence.java:151] Bridge sequence failed: Bridge login failed; invalid login credentials
+frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:264) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.program(RadioConfigSequence.java:57) [FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.doInBackground(RadioConfigSequence.java:290) [FRCWpaKiosk.jar:12.18.12.913]
+	at javax.swing.SwingWorker$1.call(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.7.0_51]
+	at javax.swing.SwingWorker.run(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_51]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_51]
+Caused by: frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:303) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:256) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 8 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:323) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:309) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:287) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 9 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.RevBUtil.checkLoginSuccessful(RevBUtil.java:38) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:319) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 11 common frames omitted
+2014-03-18 17:22:58,996 INFO [SwingWorker-pool-2-thread-2] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:210] Radio configuration failedfor team 1510; Bridge login failed; invalid login credentials
+2014-03-18 17:24:36,945 ERROR [SwingWorker-pool-2-thread-3] f.RadioConfigSequence [RadioConfigSequence.java:151] Bridge sequence failed: Could not locate bridge
+frcradiokiosk.RadioDetectionException: Could not locate bridge
+	at frcradiokiosk.RadioConfigSequence.findRadio(RadioConfigSequence.java:195) [FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.program(RadioConfigSequence.java:55) [FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.doInBackground(RadioConfigSequence.java:290) [FRCWpaKiosk.jar:12.18.12.913]
+	at javax.swing.SwingWorker$1.call(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.7.0_51]
+	at javax.swing.SwingWorker.run(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_51]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_51]
+Caused by: frcradiokiosk.RadioDetectionException: Could not locate bridge
+	at frcradiokiosk.RadioConfigSequence.findRadio(RadioConfigSequence.java:176) [FRCWpaKiosk.jar:12.18.12.913]
+	... 8 common frames omitted
+2014-03-18 17:24:49,621 INFO [SwingWorker-pool-2-thread-3] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:210] Radio configuration failedfor team 1510; Could not locate bridge
+2014-03-18 17:24:53,767 ERROR [SwingWorker-pool-2-thread-4] f.RadioConfigSequence [RadioConfigSequence.java:151] Bridge sequence failed: Bridge login failed; invalid login credentials
+frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:264) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.program(RadioConfigSequence.java:57) [FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.doInBackground(RadioConfigSequence.java:290) [FRCWpaKiosk.jar:12.18.12.913]
+	at javax.swing.SwingWorker$1.call(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.7.0_51]
+	at javax.swing.SwingWorker.run(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_51]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_51]
+Caused by: frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:303) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:256) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 8 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:323) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:309) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:287) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 9 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.RevBUtil.checkLoginSuccessful(RevBUtil.java:38) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:319) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 11 common frames omitted
+2014-03-18 17:24:57,534 INFO [SwingWorker-pool-2-thread-4] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:210] Radio configuration failedfor team 1510; Bridge login failed; invalid login credentials
+2014-03-18 17:25:13,532 ERROR [SwingWorker-pool-2-thread-5] f.RadioConfigSequence [RadioConfigSequence.java:151] Bridge sequence failed: Bridge login failed; invalid login credentials
+frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:264) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.program(RadioConfigSequence.java:57) [FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.doInBackground(RadioConfigSequence.java:290) [FRCWpaKiosk.jar:12.18.12.913]
+	at javax.swing.SwingWorker$1.call(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.7.0_51]
+	at javax.swing.SwingWorker.run(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_51]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_51]
+Caused by: frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:303) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:256) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 8 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:323) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:309) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:287) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 9 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.RevBUtil.checkLoginSuccessful(RevBUtil.java:38) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:319) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 11 common frames omitted
+2014-03-18 17:25:17,280 INFO [SwingWorker-pool-2-thread-5] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:210] Radio configuration failedfor team 1510; Bridge login failed; invalid login credentials
+2014-03-18 17:25:57,925 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:222] Shutting down kiosk
+2014-03-19 15:29:17,168 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:422] Starting kiosk...
+2014-03-19 15:29:55,977 ERROR [SwingWorker-pool-2-thread-1] f.RadioConfigSequence [RadioConfigSequence.java:151] Bridge sequence failed: Bridge login failed; invalid login credentials
+frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:264) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.program(RadioConfigSequence.java:57) [FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.RadioConfigSequence.doInBackground(RadioConfigSequence.java:290) [FRCWpaKiosk.jar:12.18.12.913]
+	at javax.swing.SwingWorker$1.call(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.7.0_51]
+	at javax.swing.SwingWorker.run(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_51]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_51]
+Caused by: frcradiokiosk.RadioException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:303) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.checkMode(DAP1522revB.java:256) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 8 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:323) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:309) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.loginWithRetry(DAP1522revB.java:287) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 9 common frames omitted
+Caused by: frcradiokiosk.InvalidLoginException: Bridge login failed; invalid login credentials
+	at frcradiokiosk.DAP1522RevB.RevBUtil.checkLoginSuccessful(RevBUtil.java:38) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.DAP1522RevB.DAP1522revB.login(DAP1522revB.java:319) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 11 common frames omitted
+2014-03-19 15:29:57,567 INFO [SwingWorker-pool-2-thread-1] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:210] Radio configuration failedfor team 1510; Bridge login failed; invalid login credentials
+2014-03-19 15:30:16,090 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:222] Shutting down kiosk
