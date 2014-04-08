@@ -145,6 +145,7 @@ DirectoryIndex index.htm
 			<Item Name="LED Spike.vi" Type="VI" URL="../LED Spike.vi"/>
 			<Item Name="1 Ultrasonic.vi" Type="VI" URL="../1 Ultrasonic.vi"/>
 			<Item Name="Ultrasonic.vi" Type="VI" URL="../Ultrasonic.vi"/>
+			<Item Name="Drive Encoders.vi" Type="VI" URL="../Drive Encoders.vi"/>
 			<Item Name="Ultrasonic Analytic Code.vi" Type="VI" URL="../Ultrasonic Analytic Code.vi"/>
 		</Item>
 		<Item Name="Input Devices" Type="Folder">
