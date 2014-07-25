@@ -1,2 +1,2 @@
-@echo off
-ftp -s:send.bat
+call aliases.bat
+call rtexe.bat
