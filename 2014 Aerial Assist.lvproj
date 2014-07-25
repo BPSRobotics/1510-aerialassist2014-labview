@@ -152,9 +152,11 @@ DirectoryIndex index.htm
 		<Item Name="Input Devices" Type="Folder">
 			<Item Name="Controller Drive.vi" Type="VI" URL="../Controller Drive.vi"/>
 			<Item Name="Deadzone.vi" Type="VI" URL="../Deadzone.vi"/>
+			<Item Name="Deadzone 2 Sticks.vi" Type="VI" URL="../Deadzone 2 Sticks.vi"/>
 			<Item Name="Input Control.vi" Type="VI" URL="../Input Control.vi"/>
 			<Item Name="Joystick Drive.vi" Type="VI" URL="../Joystick Drive.vi"/>
 			<Item Name="Secondary Joystick Control.vi" Type="VI" URL="../Secondary Joystick Control.vi"/>
+			<Item Name="Dual Joystick Drive.vi" Type="VI" URL="../Dual Joystick Drive.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Testing (not part of comp).vi" Type="VI" URL="../Testing (not part of comp).vi"/>
